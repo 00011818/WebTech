@@ -8,7 +8,7 @@ This application allows users to enter the informations about theirselves and ch
 1.Download the source code 
 
 
-    ```bash 
+```bash 
 git clone [url to the github repo]
 ```
 or just download the *.zip file 
