@@ -33,4 +33,4 @@ node app
 https://github.com/00011818/WebTech.git
 
 #### Link to the hosted site
-https://tender-snapdragon-foe.glitch.me 
+https://wiut-student-system.herokuapp.com
