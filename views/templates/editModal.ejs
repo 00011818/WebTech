@@ -1,0 +1,54 @@
+<!-- Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Edit student</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <form id="editModal">
+          <div class="modal-body p-4">
+
+              <input type="text" id="editModalInput" hidden>
+
+              <!-- Full Name input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="full_name_edit" class="form-control" required />
+                <label class="form-label" for="full_name_edit">Full Name</label>
+              </div>
+            
+              <!-- Direction input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="direction_edit" class="form-control" required />
+                <label class="form-label" for="direction_edit">Direction</label>
+              </div>
+
+              <!-- Level input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="level_edit" class="form-control" required />
+                <label class="form-label" for="level_edit">Level</label>
+              </div>
+
+              <!-- Image input -->
+              <div class="form mb-4">
+                <label class="form-label mb-0 ms-1" for="image_edit">Image</label>
+                <input type="file" id="image_edit" class="form-control" required />
+              </div>
+
+              <!-- Status checkbox -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Active" id="status_edit" />
+                <label class="form-check-label" for="status_edit">Active</label>
+              </div>
+
+          </div>
+          
+          <div class="modal-footer">
+              <button type="reset" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Update</button>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>

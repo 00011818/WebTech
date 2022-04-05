@@ -1,0 +1,11 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Montserrat;
+    font-weight: 800;
+    background-color: #ECF0F1;
+}
+
+.modal-dialog{
+    font-weight: 800;
+}
